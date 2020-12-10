@@ -31,9 +31,12 @@ store.
 -----------------------------------------------------------------------------------------------------------------------------
 RESTFUL API USING NODEJS
 1. INSTALL any text editor supported for nodejs.
-2. In my code the get is used to access the file that is stored in localhost:3000/stores database that you created.
-3. INSTALL necessary application to run this, robo3t and postman is used to post, get , delete the data.
-4. For example if you want to read one data from database change postman collection directory to get and type 
+2. INSTALL necessary application to run this, robo3t and postman is used to post, get , delete the data.
+3. CREATE THE NECESSARY DATABASE "MY DATABASE IS ukdb" and in ukdb create a new collections called STORES.
+4. In that stores all of our jason file that we desired can be written.
+5. In my code the get is used to read  the file that is stored in localhost:3000/stores database that you created.
+6. For example if you want to read one data from database change postman collection directory to get and type 
    localhost:3000/stores/titlename to get the particular json data.
-5. similarly for post an delete to create and delete operation
+7. similarly for create the new new data use command POST to create new data that will added into the database.
+7. similarly for delete use the command DELETE.
 
